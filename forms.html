@@ -1,0 +1,47 @@
+<html>
+    <head>
+      <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="results.html" method="GET">
+<label for="name">Enter your name</label>
+  <input type="name" placeholder="name" autocomplete="off" class="name" required><br>
+
+<label for="email">Enter your email</label>
+<input type="email" placeholder="email" autocomplete="off" class="email" required><br>
+<label for="phone">Input your phone number</label>
+  <input type="tel" placeholder="phone contact" autocomplete="off" class="phone" required><br>
+<label for="birth">Date of birth</label>
+  <input type="date" placeholder="Date of Birth" autocomplete="off" id="date" max="01/01/2007" required><br>
+<div>Gender
+  <div>
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" value="male">
+</div>
+<div>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" value="female">
+</div>
+</div>
+ <label for="ID"> input ID number</label>
+  <input type="number" placeholder="National ID" autocomplete="off" class="ID" required><br>
+<div>
+  <label for="proffession">Proffession</label>
+  <select name="proffession" id="proffession">
+    <option value="IT">Information Technology</option>
+    <option value="BAC">Bachelor of science in Applied computing</option>
+    <option value="BSF">Bachelor of science in forensics</option>
+    <option value="BISF">Bachelor of science in information&forensics</option>
+    <option value="BSD">Bachelor of scince in development</option>
+  </select>
+</div>
+<br>
+  <button type="submit">Submit</button>
+   onclick="document.location='hello.html'">send information</button>
+  <br>
+<br>
+<button TYPE="RESET">Reset</button>
+</form>
+</body>
+</html>

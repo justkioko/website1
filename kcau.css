@@ -1,0 +1,139 @@
+body{
+    padding: 2px;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background: #23e3c2;
+    font-family: system-ui;
+}
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+ width: 100%;
+ height: 300px;
+}
+.banner-text{
+    position:absolute;
+    bottom: 0;
+    color: aliceblue;
+    padding-left: 50%;
+    padding-right: 40%;
+    max-width:max-content;
+    background: black;
+}
+.section{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    height: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slide{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+.slide input{
+    display:none;
+}
+.st{
+    width: 20%;
+    transition: 2s;
+}
+.st img{
+    width: 800px;
+    height: 500px;
+}
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+}
+.m-btn{
+    border: 2px solid#23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.m-btn:not(:last-child){
+margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: #23e3c2;
+}
+#radio1:checked~.first{
+    margin-left: 0;
+}
+#radio2:checked~.first{
+    margin-left: 20%;
+}
+#radio3:checked~.first{
+    margin-left: 40%;
+}
+#radio4:checked~.first{
+    margin-left: 60%;
+}
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+.nav-auto div{
+    border: 2px solid#23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.nav-auto div:not(:last-child){
+margin-right: 130px;
+justify-content: center;
+}
+.hero{
+    background-color: #23e3c2;
+    color: white;
+    background-image: url("C:\Users\HP\OneDrive\Documents\Html\img\8.jpeg")
+}
+.container {
+    background-image: url("C:\Users\HP\OneDrive\Documents\Html\img\12.jpg");
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-items: center;
+}
+.join{
+    padding-top: 50px;
+    padding-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.programmes{
+    position: relative;
+}
+.Programmes img{
+    width: 100%;
+    height: 300px;
+    padding-left: 4px;
+    padding-right: 4px; 
+}
+.programmes-text{
+    position: absolute;
+ bottom: 0;
+ background: rgb(242, 242, 94);
+}
